@@ -42,7 +42,6 @@
                     <li><a target="_blank" title="{% trans "estimated reading time:" %} {{ entry.content| getReadingTime }} min" class="tool reading-time"><span>{{ entry.content| getReadingTime }} min</span></a></li>
                 </ul>
                 <p>{{ entry.content|striptags|slice(0, 300) }}...</p>
-                <p>test</p>
             </div>
                 {% endfor %}
             {% endif %}
