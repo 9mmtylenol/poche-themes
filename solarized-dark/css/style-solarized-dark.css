@@ -204,7 +204,7 @@ a.twitter span {
 }
 
 a.flattr span {
-    background: url('../img/solarized-dark/flattr.png');
+    background-image: url('../img/solarized-dark/flattr.png');
 }
 
 a.email span {
@@ -213,4 +213,21 @@ a.email span {
 
 a.delete span {
     background-image: url('../img/solarized-dark/remove.png');
+}
+
+a.link span {
+    background-image: url('../img/solarized-dark/link.png');
+}
+
+a.bad-display span {
+    background-image: url('../img/solarized-dark/bad-display.png');
+}
+
+a.reading-time span {
+    background-image: url('../img/solarized-dark/clock.png');
+}
+
+#article_toolbar
+{
+    background: #002b36;
 }

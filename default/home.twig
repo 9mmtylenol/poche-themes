@@ -38,10 +38,11 @@
                     <li><a title="{% trans "toggle mark as read" %}" class="tool archive {% if entry.is_read == 0 %}archive-off{% endif %}" href="./?action=toggle_archive&amp;id={{ entry.id|e }}"><span>{% trans "toggle mark as read" %}</span></a></li>
                     <li><a title="{% trans "toggle favorite" %}" class="tool fav {% if entry.is_fav == 0 %}fav-off{% endif %}" href="./?action=toggle_fav&amp;id={{ entry.id|e }}"><span>{% trans "toggle favorite" %}</span></a></li>
                     <li><a title="{% trans "delete" %}" class="tool delete" href="./?action=delete&amp;id={{ entry.id|e }}"><span>{% trans "delete" %}</span></a></li>
-                    <li class="reading-time">{{ entry.content| getReadingTime }} min</li>
+                    <li><a href="{{ entry.url|e }}" target="_blank" title="{% trans "original" %} : {{ entry.title|e }}" class="tool link"><span>{{ entry.url | e | getDomain }}</span></a></li>
+                    <li><a target="_blank" title="{% trans "estimated reading time:" %} {{ entry.content| getReadingTime }} min" class="tool reading-time"><span>{{ entry.content| getReadingTime }} min</span></a></li>
                 </ul>
                 <p>{{ entry.content|striptags|slice(0, 300) }}...</p>
-                <p class="vieworiginal txtright small"><a href="{{ entry.url|e }}" target="_blank" title="{% trans "original" %} : {{ entry.title|e }}">{{ entry.url | e | getDomain }}</a></p>
+                <p>test</p>
             </div>
                 {% endfor %}
             {% endif %}

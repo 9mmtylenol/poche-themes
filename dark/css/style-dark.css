@@ -9,57 +9,74 @@ a, a:hover, a:visited {
 }
 
 a.back span {
-    background: url('../img/dark/left.png');
+    background-image: url('../img/dark/left.png');
 }
 
 a.top span {
-    background: url('../img/dark/top.png');
+    background-image: url('../img/dark/top.png');
 }
 
 a.fav span {
-    background: url('../img/dark/star-on.png');
+    background-image: url('../img/dark/star-on.png');
 }
 a.fav span:hover {
-    background: url('../img/dark/star-off.png');
+    background-image: url('../img/dark/star-off.png');
 }
 
 a.fav-off span {
-    background: url('../img/dark/star-off.png');
+    background-image: url('../img/dark/star-off.png');
 }
 a.fav-off span:hover {
-    background: url('../img/dark/star-on.png');
+    background-image: url('../img/dark/star-on.png');
 }
 
 a.archive span {
-    background: url('../img/dark/checkmark-on.png');
+    background-image: url('../img/dark/checkmark-on.png');
 }
 a.archive span:hover {
-    background: url('../img/dark/checkmark-off.png');
+    background-image: url('../img/dark/checkmark-off.png');
 }
 
 a.archive-off span {
-    background: url('../img/dark/checkmark-off.png');
+    background-image: url('../img/dark/checkmark-off.png');
 }
 a.archive-off span:hover {
-    background: url('../img/dark/checkmark-on.png');
+    background-image: url('../img/dark/checkmark-on.png');
 }
 
 a.twitter span {
-    background: url('../img/dark/twitter.png');
+    background-image: url('../img/dark/twitter.png');
 }
 
 a.flattr span {
-    background: url('../img/dark/flattr.png');
+    background-image: url('../img/dark/flattr.png');
 }
 
 a.email span {
-    background: url('../img/dark/envelop.png');
+    background-image: url('../img/dark/envelop.png');
 }
 
 a.delete span {
-    background: url('../img/dark/remove.png');
+    background-image: url('../img/dark/remove.png');
 }
 
 .pagination a {
     color: #aaa;
+}
+
+a.link span {
+    background-image: url('../img/dark/link.png');
+}
+
+a.bad-display span {
+    background-image: url('../img/dark/bad-display.png');
+}
+
+a.reading-time span {
+    background-image: url('../img/dark/clock.png');
+}
+
+#article_toolbar
+{
+    background: #262627;
 }

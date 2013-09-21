@@ -108,14 +108,8 @@ a, a:hover, a:visited {
 }
 
 #main .entrie .tools + p {
-    min-height: 5.5em;
+    min-height: 6em;
 }
-
-/*
-#main .entrie .tools li {
-    display: inline;
-}
-*/
 
 .tools {
     float: right;
@@ -141,7 +135,7 @@ a, a:hover, a:visited {
     cursor: pointer;
 }*/
 
-#main .entrie .tools .tool span, #article .tools .tool span {
+#main .entrie .tools .tool span{
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -151,7 +145,6 @@ a, a:hover, a:visited {
     overflow: hidden;
 }
 
-
 /*** ***/
 /*** ARTICLE PAGE ***/
 
@@ -159,7 +152,7 @@ a, a:hover, a:visited {
     margin: 0 auto;
 }
 
-#article header, #article article {
+#article header {
     border-bottom: 1px solid #222;
 }
 
@@ -167,31 +160,18 @@ a, a:hover, a:visited {
     text-align: left;
 }
 
-#article header a {
-    text-decoration: none;
+#article header h1 small {
+    float: right;
+    font-size: 0.6em;
 }
 
-.vieworiginal a, .vieworiginal a:hover, .vieworiginal a:visited {
+#article header a {
     text-decoration: none;
-    color: #888;
 }
 
 .backhome {
     display: inline;
 }
-
-#article .tools {
-    position: relative;
-    display: inline;
-    top: 0;
-    right: 0;
-    width: 100%;
-}
-
-#article .tools ul li {
-    display: inline;
-}
-
 
 .results {
     overflow: hidden;
@@ -204,6 +184,36 @@ a, a:hover, a:visited {
     font-size: 0.9em;
     line-height: 24px;
     vertical-align: middle;
+}
+
+#article_toolbar
+{
+    background: #fff;
+    opacity: 0.8;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+#article_toolbar .tool span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    padding-right: 50px;
+    /* Hide textual content */
+    text-indent: -9999px;
+    text-align: left;
+    overflow: hidden;
+}
+
+#article_toolbar ul li
+{
+    display: inline;
 }
 
 /* Pagination */
@@ -295,6 +305,9 @@ a.archive-off span:hover,
 a.twitter span,
 a.flattr span,
 a.email span,
-a.delete span {
+a.delete span, 
+a.link span,
+a.bad-display span,
+a.reading-time span {
     background-repeat: no-repeat;
 }
