@@ -207,6 +207,10 @@ a.flattr span {
     background-image: url('../img/solarized-dark/flattr.png');
 }
 
+a.shaarli span {
+    background-image: url('../img/solarized-dark/shaarli.png');
+}
+
 a.email span {
     background-image: url('../img/solarized-dark/envelop.png');
 }

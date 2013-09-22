@@ -48,6 +48,10 @@ a.twitter span {
     background-image: url('../img/dark/twitter.png');
 }
 
+a.shaarli span {
+    background-image: url('../img/dark/shaarli.png');
+}
+
 a.flattr span {
     background-image: url('../img/dark/flattr.png');
 }

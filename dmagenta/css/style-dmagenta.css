@@ -53,6 +53,10 @@ a.flattr span {
     background-image: url('../img/dmagenta/flattr.png');
 }
 
+a.shaarli span {
+    background-image: url('../img/dmagenta/shaarli.png');
+}
+
 a.email span {
     background-image: url('../img/dmagenta/envelop.png');
 }

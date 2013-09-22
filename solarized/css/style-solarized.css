@@ -204,6 +204,10 @@ a.twitter span {
     background-image: url('../img/solarized/twitter.png');
 }
 
+a.shaarli span {
+    background-image: url('../img/solarized/shaarli.png');
+}
+
 a.flattr span {
     background-image: url('../img/solarized/flattr.png');
 }
