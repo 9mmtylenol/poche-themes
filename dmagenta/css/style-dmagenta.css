@@ -1,10 +1,11 @@
 body {
-    background-color: #372D37;
-    color:#D4D4D4;
+    background-color: #372d37;
+    color: #d4d4d4;
 }
 
-
-a, a:hover, a:visited {
+a,
+a:hover,
+a:visited {
     color: #8d748d;
 }
 
@@ -16,33 +17,22 @@ a.top span {
     background-image: url('../img/dmagenta/top.png');
 }
 
-
-a.fav span {
+a.fav span,
+a.fav-off span:hover {
     background-image: url('../img/dmagenta/star-on.png');
 }
+a.fav-off span,
 a.fav span:hover {
     background-image: url('../img/dmagenta/star-off.png');
 }
 
-a.fav-off span {
-    background-image: url('../img/dmagenta/star-off.png');
-}
-a.fav-off span:hover {
-    background-image: url('../img/dmagenta/star-on.png');
-}
-
-a.archive span {
-    background-image: url('../img/dmagenta/checkmark-on.png');
-}
-a.archive span:hover {
-    background-image: url('../img/dmagenta/checkmark-off.png');
-}
-
-a.archive-off span {
-    background-image: url('../img/dmagenta/checkmark-off.png');
-}
+a.archive span,
 a.archive-off span:hover {
     background-image: url('../img/dmagenta/checkmark-on.png');
+}
+a.archive-off span,
+a.archive span:hover {
+    background-image: url('../img/dmagenta/checkmark-off.png');
 }
 
 a.twitter span {
@@ -65,15 +55,6 @@ a.delete span {
     background-image: url('../img/dmagenta/remove.png');
 }
 
-.pagination a {
-    color: #aaa;
-}
-
-
-#main ul#links li a.current {
-    background-color: #2d372d;
-}
-
 a.link span {
     background-image: url('../img/dmagenta/link.png');
 }
@@ -86,7 +67,14 @@ a.reading-time span {
     background-image: url('../img/dmagenta/clock.png');
 }
 
-#article_toolbar
-{
-    background: #372D37;
+.pagination a {
+    color: #aaa;
+}
+
+#main #links li .current {
+    background-color: #2d372d;
+}
+
+#article_toolbar {
+    background: #372d37;
 }

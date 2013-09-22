@@ -1,11 +1,12 @@
 body {
     background-color: #262627;
-    color:#D4D4D4;
+    color: #d4d4d4;
 }
 
-
-a, a:hover, a:visited {
-    color: #D4D4D4;
+a,
+a:hover,
+a:visited {
+    color: #d4d4d4;
 }
 
 a.back span {
@@ -16,32 +17,22 @@ a.top span {
     background-image: url('../img/dark/top.png');
 }
 
-a.fav span {
+a.fav span,
+a.fav-off span:hover {
     background-image: url('../img/dark/star-on.png');
 }
+a.fav-off span,
 a.fav span:hover {
     background-image: url('../img/dark/star-off.png');
 }
 
-a.fav-off span {
-    background-image: url('../img/dark/star-off.png');
-}
-a.fav-off span:hover {
-    background-image: url('../img/dark/star-on.png');
-}
-
-a.archive span {
-    background-image: url('../img/dark/checkmark-on.png');
-}
-a.archive span:hover {
-    background-image: url('../img/dark/checkmark-off.png');
-}
-
-a.archive-off span {
-    background-image: url('../img/dark/checkmark-off.png');
-}
+a.archive span,
 a.archive-off span:hover {
     background-image: url('../img/dark/checkmark-on.png');
+}
+a.archive span:hover,
+a.archive-off span {
+    background-image: url('../img/dark/checkmark-off.png');
 }
 
 a.twitter span {
@@ -64,10 +55,6 @@ a.delete span {
     background-image: url('../img/dark/remove.png');
 }
 
-.pagination a {
-    color: #aaa;
-}
-
 a.link span {
     background-image: url('../img/dark/link.png');
 }
@@ -80,7 +67,10 @@ a.reading-time span {
     background-image: url('../img/dark/clock.png');
 }
 
-#article_toolbar
-{
+.pagination a {
+    color: #aaa;
+}
+
+#article_toolbar {
     background: #262627;
 }

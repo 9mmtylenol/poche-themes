@@ -13,7 +13,9 @@ header h1 {
     font-size: 1.3em;
 }
 
-a, a:hover, a:visited {
+a,
+a:hover,
+a:visited {
     color: #000;
 }
 
@@ -114,7 +116,7 @@ a, a:hover, a:visited {
     opacity: 0.5;
 }
 
-#main .entrie .tools .tool span{
+#main .entrie .tools .tool span {
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -164,14 +166,13 @@ a, a:hover, a:visited {
     vertical-align: middle;
 }
 
-#article_toolbar
-{
+#article_toolbar {
     background: #fff;
     opacity: 0.8;
-    color: white;
+    color: #fff;
     position: fixed;
-    bottom: 0px;
-    left: 0px;
+    bottom: 0;
+    left: 0;
     width: 100%;
     height: 50px;
     text-align: center;
@@ -189,8 +190,7 @@ a, a:hover, a:visited {
     overflow: hidden;
 }
 
-#article_toolbar ul li
-{
+#article_toolbar ul li {
     display: inline;
 }
 
@@ -209,7 +209,8 @@ a, a:hover, a:visited {
     text-decoration: none;
     margin: 2px;
 }
-.pagination a:hover, .pagination a:active {
+.pagination a:hover,
+.pagination a:active {
     background-color: #efefef;
 }
 .pagination .current {
