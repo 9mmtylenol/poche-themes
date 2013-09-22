@@ -1,6 +1,6 @@
 body {
-    background-color: #372d37;
     color: #d4d4d4;
+    background-color: #372d37;
 }
 
 a,
@@ -21,6 +21,7 @@ a.fav span,
 a.fav-off span:hover {
     background-image: url('../img/dmagenta/star-on.png');
 }
+
 a.fav-off span,
 a.fav span:hover {
     background-image: url('../img/dmagenta/star-off.png');
@@ -30,6 +31,7 @@ a.archive span,
 a.archive-off span:hover {
     background-image: url('../img/dmagenta/checkmark-on.png');
 }
+
 a.archive-off span,
 a.archive span:hover {
     background-image: url('../img/dmagenta/checkmark-off.png');

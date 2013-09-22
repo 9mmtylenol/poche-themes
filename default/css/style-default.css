@@ -10,6 +10,7 @@ a.fav span,
 a.fav-off span:hover {
     background-image: url('../img/default/star-on.png');
 }
+
 a.fav-off span,
 a.fav span:hover {
     background-image: url('../img/default/star-off.png');
@@ -19,6 +20,7 @@ a.archive span,
 a.archive-off span:hover {
     background-image: url('../img/default/checkmark-on.png');
 }
+
 a.archive span:hover,
 a.archive-off span {
     background-image: url('../img/default/checkmark-off.png');

@@ -20,7 +20,6 @@
  *
  * ================================================== */
 
-
 /* Background */
 
 body,
@@ -28,9 +27,7 @@ body,
     background-color: #fdf6e3;
 }
 
-
 /* Highlight */
-
 /* 2 different selectors for selection pseudo-elmt */
 /* See https://developer.mozilla.org/en-US/docs/Web/CSS/::selection */
 ::-moz-selection {
@@ -40,7 +37,6 @@ body,
     background-color: #eee8d5;
 }
 
-
 /* Primary content */
 
 body,
@@ -49,7 +45,6 @@ a:hover,
 a:visited {
     color: #657b83;
 }
-
 
 /* Secondary content */
 
@@ -66,7 +61,6 @@ a:visited {
     border-bottom-color: #93a1a1;
 }
 
-
 /* Emphasized content */
 
 .entrie h2 a:hover,
@@ -74,7 +68,6 @@ footer,
 footer a {
     color: #586e75;
 }
-
 
 /* Colored content */
 
@@ -89,6 +82,7 @@ footer a {
 #main .messages.success {
     border-color: #859900;
 }
+
 #main .messages.success p {
     color: #859900 !important; /* Overwrites !important used on messages.css */
 }
@@ -96,6 +90,7 @@ footer a {
 #main .messages.warning {
     border-color: #cb4b16;
 }
+
 #main .messages.warning p {
     color: #cb4b16;
 }
@@ -103,6 +98,7 @@ footer a {
 #main .messages.error {
     border-color: #dc322f;
 }
+
 #main .messages.error p {
     color: #dc322f !important; /* Overwrites !important used on messages.css */
 }
@@ -111,11 +107,11 @@ footer a {
 #main .messages.info {
     border-color: #268bd2;
 }
+
 #main .messages.information p,
 #main .messages.info p {
     color: #268bd2;
 }
-
 
 /* Miscellaneous */
 
@@ -126,9 +122,10 @@ footer a {
 .pagination span.current,
 .pagination a:hover,
 .pagination a:active {
-    background-color: #93a1a1;
     color: #fdf6e3;
+    background-color: #93a1a1;
 }
+
 .bouton:hover {
     background-color: #657b83;
 }
@@ -140,18 +137,19 @@ footer a {
 .top_link {
     background-color: #eee8d5;
 }
+
 #login,
 #password,
 #password_repeat,
 #bookmarklet {
-    border: 1px solid #93a1a1;
     padding: 5px;
+    border: 1px solid #93a1a1;
     color: #657b83;
 }
+
 #bookmarklet {
     border-style: dashed;
 }
-
 
 .pagination a {
     border-color: #93a1a1;
@@ -161,7 +159,6 @@ footer a {
 .pagination span.current {
     border-color: #eee8d5;
 }
-
 
 /* Images */
 
@@ -177,6 +174,7 @@ a.fav span,
 a.fav-off span:hover {
     background-image: url('../img/solarized/star-on.png');
 }
+
 a.fav-off span,
 a.fav span:hover {
     background-image: url('../img/solarized/star-off.png');
@@ -186,6 +184,7 @@ a.archive span,
 a.archive-off span:hover {
     background-image: url('../img/solarized/checkmark-on.png');
 }
+
 a.archive span:hover,
 a.archive-off span {
     background-image: url('../img/solarized/checkmark-off.png');
