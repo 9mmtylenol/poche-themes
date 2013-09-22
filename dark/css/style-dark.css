@@ -22,8 +22,8 @@ a.fav-off span:hover {
     background-image: url('../img/dark/star-on.png');
 }
 
-a.fav-off span,
-a.fav span:hover {
+a.fav span:hover,
+a.fav-off span {
     background-image: url('../img/dark/star-off.png');
 }
 

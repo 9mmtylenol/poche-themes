@@ -22,8 +22,8 @@ a.fav-off span:hover {
     background-image: url('../img/dmagenta/star-on.png');
 }
 
-a.fav-off span,
-a.fav span:hover {
+a.fav span:hover,
+a.fav-off span {
     background-image: url('../img/dmagenta/star-off.png');
 }
 
@@ -32,8 +32,8 @@ a.archive-off span:hover {
     background-image: url('../img/dmagenta/checkmark-on.png');
 }
 
-a.archive-off span,
-a.archive span:hover {
+a.archive span:hover,
+a.archive-off span {
     background-image: url('../img/dmagenta/checkmark-off.png');
 }
 
