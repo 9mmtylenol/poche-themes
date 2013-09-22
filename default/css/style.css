@@ -106,31 +106,10 @@ a, a:hover, a:visited {
 
 #main .entrie .tools {
     list-style-type: none;
-}
-
-.tools {
     float: right;
     text-align: right;
     opacity: 0.5;
 }
-
-.tools p {
-    font-size: 0.8em;
-}
-
-/*
-.tools ul {
-    padding: 0; margin: 0;
-    list-style-type: none;
-}
-
-.tools ul li {
-    line-height: 20px;
-}
-
-.tools .tool {
-    cursor: pointer;
-}*/
 
 #main .entrie .tools .tool span{
     display: inline-block;
