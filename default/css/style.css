@@ -96,6 +96,7 @@ a, a:hover, a:visited {
 }
 
 #main #content .entrie {
+    overflow: hidden;
     border-bottom: 1px dashed #222;
 }
 /* First entry */
@@ -105,10 +106,6 @@ a, a:hover, a:visited {
 
 #main .entrie .tools {
     list-style-type: none;
-}
-
-#main .entrie .tools + p {
-    min-height: 6em;
 }
 
 .tools {
